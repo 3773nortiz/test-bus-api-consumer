@@ -27,7 +27,7 @@
         ></v-progress-linear>
       </v-col>
     </v-row>
-{{ entries }}
+
     <v-row v-if="entries.length || !isLoading">
       <v-col cols="12"
         sm="6"
